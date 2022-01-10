@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: #313638;
+}
+
+header{
+    background-color: rgb(255, 187, 0);
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.lista-cadastro{
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.lista-cadastro input[type="text"]{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.lista-produto-single{
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid rgb(255, 187, 0);
+    display: flex;
+
+}
+
+.lista-produto-single h3{
+    color: white;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.price-produto{
+    text-align: right;
+    font-size: 17px;
+}
+
+.price-produto span{
+    background-color: rgb(255, 187, 0);
+    padding: 8px;
+    border-radius: 15px;
+
+}
+
+.soma-produto{
+    color: white;
+    background-color:rgb(255, 187, 0);
+    margin:20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+   
+
+}
+
+.btnClear button{
+    margin: 0 20px;
+    color:white;
+    background-color:rgb(255, 187, 0);
+    border:none;
+    padding: 15px;
+    border-radius: 15px;
+    float:right;
+}
+
+.clear{
+    clear:both;
+}
